@@ -6,7 +6,10 @@
     "react-dom": "^17.0.2",
     "web-vitals": "^1.0.1"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "bun build",
+    "dev": "bun dev"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -14,7 +17,7 @@
     ]
   },
   "devDependencies": {
-    "typescript": "latest",
-    "react-refresh": "0.10.0"
+    "react-refresh": "0.10.0",
+    "typescript": "latest"
   }
 }
